@@ -229,4 +229,12 @@ async def on_message(message):
     if "fuck" in command:
         await message.channel.send("(fuck)")
         await message.channel.send(file=discord.File('fuck.png'))
+
+    if "jaden" in command:
+        await message.channel.send("(jaden)")
+        await message.channel.send(file=discord.File('jaden.jpg'))
+
+    if "ryan" in command:
+        await message.channel.send("(ryan)")
+        await message.channel.send(file=discord.File('ryan.jpg'))
 client.run(TOKEN)
