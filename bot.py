@@ -193,4 +193,20 @@ async def on_message(message):
     if "subway" in command:
         await message.channel.send("(subway)")
         await message.channel.send(file=discord.File('subway.jpg'))
+
+    if "lebron james" in command:
+        await message.channel.send("(lebron james)")
+        await message.channel.send(file=discord.File('james.jpg'))
+
+    if "pepe hands" in command:
+        await message.channel.send("(pepe hands)")
+        await message.channel.send(file=discord.File('hands.png'))
+
+    if "lmfao" in command:
+        await message.channel.send("(lmfao)")
+        await message.channel.send(file=discord.File('lmfao.jpg'))
+
+    if "shrek" in command:
+        await message.channel.send("(shrek)")
+        await message.channel.send(file=discord.File('shrek.jpg'))
 client.run(TOKEN)
