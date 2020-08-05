@@ -94,7 +94,7 @@ async def on_message(message):
         await message.channel.send("(foot fetish)")
         await message.channel.send(file=discord.File('memes/foot.jpg'))
 
-    if "ok" in command:
+    if "ok" in command and not "ook" in command:
         await message.channel.send("(ok)")
         await message.channel.send(file=discord.File('memes/ok.jpg'))
 
@@ -226,7 +226,7 @@ async def on_message(message):
         await message.channel.send("(don't care)")
         await message.channel.send(file=discord.File('memes/dont.mov'))
 
-    if "fuck" in command:
+    if command == "fuck":
         await message.channel.send("(fuck)")
         await message.channel.send(file=discord.File('memes/fuck.png'))
 
@@ -237,4 +237,40 @@ async def on_message(message):
     if "ryan" in command:
         await message.channel.send("(ryan)")
         await message.channel.send(file=discord.File('memes/ryan.jpg'))
+
+    if "elaborate" in command or "in conclusion" in command:
+        await message.channel.send("(elaborate)")
+        await message.channel.send(file=discord.File('memes/elaborate.png'))
+
+    if "you dumb bitch" in command:
+        await message.channel.send("(you dumb bitch)")
+        await message.channel.send(file=discord.File('memes/bitch.png'))
+
+    if "tom cruise" in command:
+        await message.channel.send("(tom cruise)")
+        await message.channel.send(file=discord.File('memes/tom.mov'))
+
+    if "total drama island" in command:
+        await message.channel.send("(total drama island)")
+        await message.channel.send(file=discord.File('memes/island.jpg'))
+
+    if "potato" in command:
+        await message.channel.send("(potato)")
+        await message.channel.send(file=discord.File('memes/potato.jpg'))
+
+    if "donkey kong" in command:
+        await message.channel.send("(donkey kong)")
+        await message.channel.send(file=discord.File('memes/kong.mov'))
+
+    if "for real" in command:
+        await message.channel.send("(for real)")
+        await message.channel.send(file=discord.File('memes/real.mov'))
+
+    if "what is going on" in command:
+        await message.channel.send("(what is going on)")
+        await message.channel.send(file=discord.File('memes/going.mp4'))
+
+    if "league" in command:
+        await message.channel.send("(league)")
+        await message.channel.send(file=discord.File('memes/league.png'))
 client.run(TOKEN)
