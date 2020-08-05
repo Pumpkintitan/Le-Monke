@@ -209,4 +209,24 @@ async def on_message(message):
     if "shrek" in command:
         await message.channel.send("(shrek)")
         await message.channel.send(file=discord.File('shrek.jpg'))
+
+    if "drake" in command:
+        await message.channel.send("(drake)")
+        await message.channel.send(file=discord.File('drake.jpg'))
+
+    if "shut the fuck up" in command:
+        await message.channel.send("(shut the fuck up)")
+        await message.channel.send(file=discord.File('shut.jpg'))
+
+    if "onion" in command:
+        await message.channel.send("(onion)")
+        await message.channel.send(file=discord.File('onion.jpg'))
+
+    if "don't care" in command or "dont care" in command:
+        await message.channel.send("(don't care)")
+        await message.channel.send(file=discord.File('dont.mov'))
+
+    if "fuck" in command:
+        await message.channel.send("(fuck)")
+        await message.channel.send(file=discord.File('fuck.png'))
 client.run(TOKEN)
