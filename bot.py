@@ -1,5 +1,6 @@
 import os
 import discord
+
 env = open("auth", "r")
 TOKEN = env.readline()
 
@@ -273,4 +274,49 @@ async def on_message(message):
     if "league" in command:
         await message.channel.send("(league)")
         await message.channel.send(file=discord.File('memes/league.png'))
+
+    if "felix" in command:
+        await message.channel.send("(felix)")
+        await message.channel.send(file=discord.File('memes/felix.png'))
+
+    if "thats awesome" in command or "that's awesome" in command:
+        await message.channel.send("(thats awesome)")
+        await message.channel.send(file=discord.File('memes/awesome.png'))
+
+    if "im done" in command or "i'm done" in command:
+        await message.channel.send("(im done)")
+        await message.channel.send(file=discord.File('memes/done.png'))
+
+    if "racism" in command:
+        await message.channel.send("(racism)")
+        await message.channel.send(file=discord.File('memes/racism.png'))
+
+    if "hobby" in command:
+        await message.channel.send("(hobby)")
+        await message.channel.send(file=discord.File('memes/hobby.jpg'))
+
+    if "ignored" in command:
+        await message.channel.send("(ignored)")
+        await message.channel.send(file=discord.File('memes/ignored.jpg'))
+
+    if "pee" in command:
+        await message.channel.send("(pee)")
+        await message.channel.send(file=discord.File('memes/pee.jpg'))
+
+    if "grits" in command:
+        await message.channel.send("(grits)")
+        await message.channel.send(file=discord.File('memes/grits.jpg'))
+
+    if "chillin" in command:
+        await message.channel.send("(chillin)")
+        await message.channel.send(file=discord.File('memes/chillin.jpg'))
+
+    if "brian" in command:
+        await message.channel.send("(brian)")
+        await message.channel.send(file=discord.File('memes/brian.png'))
+
+    if "lets go" in command or "let's go" in command:
+        await message.channel.send("(lets go)")
+        await message.channel.send(file=discord.File('memes/letsgo.mov'))
+
 client.run(TOKEN)
