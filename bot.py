@@ -319,4 +319,31 @@ async def on_message(message):
         await message.channel.send("(lets go)")
         await message.channel.send(file=discord.File('memes/letsgo.mov'))
 
+    if "adam" in command:
+        await message.channel.send("(adam)")
+        await message.channel.send(file=discord.File('memes/adam.jpg'))
+
+    if "trex" in command:
+        await message.channel.send("(trex)")
+        await message.channel.send(file=discord.File('memes/trex.jpg'))
+    
+    if "beatbox" in command or "beat box" in command:
+        await message.channel.send("(beatbox)")
+        await message.channel.send(file=discord.File('memes/beatbox.png'))
+
+    if "taric" in command:
+        await message.channel.send("(taric)")
+        await message.channel.send(file=discord.File('memes/taric.jpg'))
+
+    if "beet" in command or "beets" in command:
+        await message.channel.send("(beet)")
+        await message.channel.send(file=discord.File('memes/beet.jpg'))
+
+    if "pineapple" in command:
+        await message.channel.send("(pineapple)")
+        await message.channel.send(file=discord.File('memes/pineapple.jpg'))
+
+    if "kaden" in command:
+        await message.channel.send("(kaden)")
+        await message.channel.send(file=discord.File('memes/kaden.jpg'))
 client.run(TOKEN)
