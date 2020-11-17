@@ -346,4 +346,12 @@ async def on_message(message):
     if "kaden" in command:
         await message.channel.send("(kaden)")
         await message.channel.send(file=discord.File('memes/kaden.jpg'))
+
+    if "gibby" in command:
+        await message.channel.send("(gibby)")
+        await message.channel.send(file=discord.File('memes/gibby.jpg'))
+
+    if "bbq" in command:
+        await message.channel.send("(bbq)")
+        await message.channel.send(file=discord.File('memes/bbq.jpg'))
 client.run(TOKEN)
