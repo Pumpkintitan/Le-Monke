@@ -23,10 +23,6 @@ async def on_message(message):
         await message.channel.send("(me lon)")
         await message.channel.send(file=discord.File('memes/melon.mp4'))
 
-    if "chris" in command:
-        await message.channel.send("(chris)")
-        await message.channel.send(file=discord.File('memes/Chris.jfif'))
-
     if "soulja boy" in command:
         await message.channel.send("(soulja boy)")
         await message.channel.send(file=discord.File('memes/Soulja.mov'))
@@ -354,4 +350,28 @@ async def on_message(message):
     if "bbq" in command:
         await message.channel.send("(bbq)")
         await message.channel.send(file=discord.File('memes/bbq.jpg'))
+
+    if "the boys" in command:
+        await message.channel.send("(the boys)")
+        await message.channel.send(file=discord.File('memes/theboys.png'))
+
+    if "cow" in command:
+        await message.channel.send("(cow)")
+        await message.channel.send(file=discord.File('memes/cow.mov'))
+
+    if "butt cheeck" in command or "buttcheeck" in command:
+        await message.channel.send("(butt cheeck)")
+        await message.channel.send(file=discord.File('memes/buttcheecks.mov'))
+
+    if "n word" in command:
+        await message.channel.send("(n word)")
+        await message.channel.send(file=discord.File('memes/nword.png'))
+
+    if "thug" in command:
+        await message.channel.send("(thug)")
+        await message.channel.send(file=discord.File('memes/thug.jpg'))
+
+    if "sadness" in command:
+        await message.channel.send("(sadness)")
+        await message.channel.send(file=discord.File('memes/sadness.jpg'))
 client.run(TOKEN)
