@@ -137,7 +137,7 @@ async def on_message(message):
 
     if "piccolo" in command or "burger king" in command:
         await message.channel.send("(piccolo)")
-        await message.channel.send(file=discord.File('memes/burger.jpg'))
+        await message.channel.send(file=discord.File('memes/burger.mov'))
 
     if "nachos" in command:
         await message.channel.send("(nachos)")
@@ -245,7 +245,7 @@ async def on_message(message):
 
     if "tom cruise" in command:
         await message.channel.send("(tom cruise)")
-        await message.channel.send(file=discord.File('memes/tom.mov'))
+        await message.channel.send(file=discord.File('memes/tom.mp4'))
 
     if "total drama island" in command:
         await message.channel.send("(total drama island)")
