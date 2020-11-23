@@ -25,6 +25,11 @@ keywords = ("me lon", "soulja boy", "redfoo", "savage", "monke", "pog", "balls",
             "let's go", "adam", "trex", "beatbox", "beat box", "taric", "beet", "pineapple", "kaden", "gibby",
             "bbq", "the boys", "cow", "butt cheeck", "buttcheeck", "n word", "thug", "sadness", "beans")
 
+printwords = "```"
+for word in keywords:
+    printwords += (word + ", ")
+printwords += "```"
+
 res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": "memes/Redfoo.jpg", "savage": "memes/Savage.jpg",
        "monke": "memes/Monke.png", "pog": "memes/pog.jpg", "balls": "memes/Balls.png", "sunday": "memes/Sunday.mp4", "glizzy": "memes/glizzy.mp4",
        "hotdog": "memes/glizzy.mp4", "hot dog": "memes/glizzy.mp4", "henceforth": "memes/Henceforth.png", "seafood mousse": "memes/sea.png",
@@ -70,6 +75,6 @@ async def on_message(message):
         await message.channel.send(file=discord.File('memes/fuck.png'))
 
     if command == "monke words please":
-        await message.channel.send(keywords)
+        await message.channel.send(printwords)
 
 client.run(TOKEN)
