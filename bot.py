@@ -23,7 +23,8 @@ keywords = ("me lon", "soulja boy", "redfoo", "savage", "monke", "pog", "balls",
             "donkey kong", "for real", "what is going on", "league", "felix", "thats awesome", "that's awesome",
             "im done", "i'm done", "racism", "hobby", "ignored", "pee", "grits", "chillin", "brian", "lets go",
             "let's go", "adam", "trex", "beatbox", "beat box", "taric", "beet", "pineapple", "kaden", "gibby",
-            "bbq", "the boys", "cow", "butt cheeck", "buttcheeck", "n word", "thug", "sadness", "beans")
+            "bbq", "the boys", "cow", "butt cheeck", "buttcheeck", "n word", "thug", "sadness", "beans", "agony", "crack",
+            "subway foot", "meow", "suffering", "poop")
 
 printwords = "```"
 for word in keywords:
@@ -52,7 +53,8 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "adam": "memes/adam.jpg", "trex": "memes/trex.jpg", "beatbox": "memes/beatbox.png", "beat box": "memes/beatbox.png", "taric": "memes/taric.jpg",
        "beet": "memes/beet.jpg", "pineapple": "memes/pineapple.jpg", "kaden": "memes/kaden.jpg", "gibby": "memes/gibby.jpg", "bbq": "memes/bbq.jpg",
        "the boys": "memes/theboys.png", "cow": "memes/cow.mov", "butt cheeck": "memes/buttcheeks.mov", "buttcheeck": "memes/buttcheeks.mov", "n word": "memes/nword.png",
-       "thug": "memes/thug.jpg", "sadness": "memes/sadness.jpg", "beans": "memes/beans.png"}
+       "thug": "memes/thug.jpg", "sadness": "memes/sadness.jpg", "beans": "memes/beans.png", "agony": "memes/agony.jpg", "crack": "memes/crack.jpg",
+       "subway foot": "memes/subfoot.jpg", "meow": "memes/meow.jpg", "suffering": "memes/suffering.png", "poop": "memes/poop.mp4"}
 
 
 @client.event
