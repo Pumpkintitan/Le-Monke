@@ -51,7 +51,7 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "grits": "memes/grits.jpg", "chillin": "memes/chillin.jpg", "brian": "memes/chillin.jpg", "lets go": "memes/letsgo.mov", "let's go": "memes/letsgo.mov",
        "adam": "memes/adam.jpg", "trex": "memes/trex.jpg", "beatbox": "memes/beatbox.png", "beat box": "memes/beatbox.png", "taric": "memes/taric.jpg",
        "beet": "memes/beet.jpg", "pineapple": "memes/pineapple.jpg", "kaden": "memes/kaden.jpg", "gibby": "memes/gibby.jpg", "bbq": "memes/bbq.jpg",
-       "the boys": "memes/theboys.pnh", "cow": "memes/cow.mov", "butt cheeck": "memes/buttcheeks.mov", "buttcheeck": "memes/buttcheeks.mov", "n word": "memes/nword.png",
+       "the boys": "memes/theboys.png", "cow": "memes/cow.mov", "butt cheeck": "memes/buttcheeks.mov", "buttcheeck": "memes/buttcheeks.mov", "n word": "memes/nword.png",
        "thug": "memes/thug.jpg", "sadness": "memes/sadness.jpg", "beans": "memes/beans.png"}
 
 
