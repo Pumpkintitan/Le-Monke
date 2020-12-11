@@ -24,7 +24,10 @@ keywords = ("me lon", "soulja boy", "redfoo", "savage", "monke", "pog", "balls",
             "im done", "i'm done", "racism", "hobby", "ignored", "pee", "grits", "chillin", "brian", "lets go",
             "let's go", "adam", "trex", "beatbox", "beat box", "taric", "beet", "pineapple", "kaden", "gibby",
             "bbq", "the boys", "cow", "butt cheeck", "buttcheeck", "n word", "thug", "sadness", "beans", "agony", "crack",
-            "subway foot", "meow", "suffering", "poop")
+            "subway foot", "meow", "suffering", "poop", "emperor tamarin", "movie theater", "imposter", "popare", "wolf order",
+            "the guys", "for africa", "3/24/1979", "gorilla joke", "7018 rod", "hercules plates", "yo dudes", "drill sargeant",
+            "people", "cheeze-it flakes", "cheese it flakes", "peanut butter and onion sandwich", "spotify", "making burger",
+            "wocky slush")
 
 printwords = "```"
 for word in keywords:
@@ -45,7 +48,7 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "pizza hut": "memes/hut.jpg", "subway": "memes/subway.jpg", "lebron james": "memes/james.jpg", "pepe hands": "memes/hands.png", "lmfao": "memes/lmfao.jpg",
        "shrek": "memes/shrek.jpg", "drake": "memes/drake.jpg", "shut the fuck up": "memes/shut.jpg", "onion": "memes/onion.jpg", "don't care": "memes/dont.mov",
        "dont care": "memes/dont.mov", "jaden": "memes/jaden.jpg", "ryan": "memes/ryan.jpg", "elaborate": "memes/elaborate.png",
-       "in conclusion": "memes/elaborate.png", "you dumb bitch": "memes/bitch", "tom cruise": "memes/tom.mp4", "total drama island": "memes/island.jpg",
+       "in conclusion": "memes/elaborate.png", "you dumb bitch": "memes/bitch.png", "tom cruise": "memes/tom.mp4", "total drama island": "memes/island.jpg",
        "potato": "memes/potato.jpg", "donkey kong": "memes/kong.mov", "for real": "memes/real.mov", "what is going on": "memes/going.mp4",
        "league": "memes/league.png", "felix": "memes/felix.png", "thats awesome": "memes/awesome.png", "that's awesome": "memes/awesome.png", "im done": "memes/done.png",
        "i'm done": "memes/done.png", "racism": "memes/racism.png", "hobby": "memes/hobby.jpg", "ignored": "memes/ignored.jpg", "pee": "memes/pee.jpg",
@@ -54,7 +57,12 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "beet": "memes/beet.jpg", "pineapple": "memes/pineapple.jpg", "kaden": "memes/kaden.jpg", "gibby": "memes/gibby.jpg", "bbq": "memes/bbq.jpg",
        "the boys": "memes/theboys.png", "cow": "memes/cow.mov", "butt cheeck": "memes/buttcheeks.mov", "buttcheeck": "memes/buttcheeks.mov", "n word": "memes/nword.png",
        "thug": "memes/thug.jpg", "sadness": "memes/sadness.jpg", "beans": "memes/beans.png", "agony": "memes/agony.jpg", "crack": "memes/crack.jpg",
-       "subway foot": "memes/subfoot.jpg", "meow": "memes/meow.jpg", "suffering": "memes/suffering.png", "poop": "memes/poop.mp4"}
+       "subway foot": "memes/subfoot.jpg", "meow": "memes/meow.jpg", "suffering": "memes/suffering.png", "poop": "memes/poop.mp4", "emperor tamarin": "memes/tamarin.jpg",
+       "movie theater": "memes/movie.png", "imposter": "memes/imposter.png", "popare": "memes/popare.png", "wolf order": "memes/wolf.png", "the guys": "memes/guys.png",
+       "for africa": "memes/africa.png", "3/24/1979": "memes/1979.mov", "gorilla joke": "memes/gorilla.png", "7018 rod": "memes/7018.jpg", "hercules plates": "memes/hercules.png",
+       "yo dudes": "memes/dudes.mov", "drill sargeant": "memes/sargeant.png", "people": "memes/people.jpg", "cheeze-it flakes": "memes/flakes.png",
+       "cheese it flakes": "memes/flakes.png", "peanut butter and onion sandwich": "memes/PBaO.jpg", "spotify": "memes/spotify.jpg", "making burger": "memes/mburger.mov",
+       "wocky slush": "memes/wocky.mp4"}
 
 
 @client.event
