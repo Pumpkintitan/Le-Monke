@@ -52,7 +52,7 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "potato": "memes/potato.jpg", "donkey kong": "memes/kong.mov", "for real": "memes/real.mov", "what is going on": "memes/going.mp4",
        "league": "memes/league.png", "felix": "memes/felix.png", "thats awesome": "memes/awesome.png", "that's awesome": "memes/awesome.png", "im done": "memes/done.png",
        "i'm done": "memes/done.png", "racism": "memes/racism.png", "hobby": "memes/hobby.jpg", "ignored": "memes/ignored.jpg", "pee": "memes/pee.jpg",
-       "grits": "memes/grits.jpg", "chillin": "memes/chillin.jpg", "brian": "memes/chillin.jpg", "lets go": "memes/letsgo.mov", "let's go": "memes/letsgo.mov",
+       "grits": "memes/grits.jpg", "chillin": "memes/chillin.jpg", "brian": "memes/brian.jpg", "lets go": "memes/letsgo.mov", "let's go": "memes/letsgo.mov",
        "adam": "memes/adam.jpg", "trex": "memes/trex.jpg", "beatbox": "memes/beatbox.png", "beat box": "memes/beatbox.png", "taric": "memes/taric.jpg",
        "beet": "memes/beet.jpg", "pineapple": "memes/pineapple.jpg", "kaden": "memes/kaden.jpg", "gibby": "memes/gibby.jpg", "bbq": "memes/bbq.jpg",
        "the boys": "memes/theboys.png", "cow": "memes/cow.mov", "butt cheeck": "memes/buttcheeks.mov", "buttcheeck": "memes/buttcheeks.mov", "n word": "memes/nword.png",
