@@ -56,7 +56,7 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "adam": "memes/adam.jpg", "trex": "memes/trex.jpg", "beatbox": "memes/beatbox.png", "beat box": "memes/beatbox.png", "taric": "memes/taric.jpg",
        "beet": "memes/beet.jpg", "pineapple": "memes/pineapple.jpg", "kaden": "memes/kaden.jpg", "gibby": "memes/gibby.jpg", "bbq": "memes/bbq.jpg",
        "the boys": "memes/theboys.png", "cow": "memes/cow.mov", "butt cheeck": "memes/buttcheeks.mov", "buttcheeck": "memes/buttcheeks.mov", "n word": "memes/nword.png",
-       "thug": "memes/thug.jpg", "sadness": "memes/sadness.jpg", "beans": "memes/beans.png", "agony": "memes/agony.jpg", "crack": "memes/crack.jpg",
+       "thug": "memes/thug.jpg", "sadness": "memes/sadness.jpg", "beans": "memes/beans.png", "agony": "memes/agony.jpg", "crack": "memes/crack.png",
        "subway foot": "memes/subfoot.jpg", "meow": "memes/meow.jpg", "suffering": "memes/suffering.png", "poop": "memes/poop.mp4", "emperor tamarin": "memes/tamarin.jpg",
        "movie theater": "memes/movie.png", "imposter": "memes/imposter.png", "popare": "memes/popare.png", "wolf order": "memes/wolf.png", "the guys": "memes/guys.png",
        "for africa": "memes/africa.png", "3/24/1979": "memes/1979.mov", "gorilla joke": "memes/gorilla.png", "7018 rod": "memes/7018.jpg", "hercules plates": "memes/hercules.png",
