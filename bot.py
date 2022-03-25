@@ -14,21 +14,23 @@ async def on_ready():
 
 keywords = ("me lon", "soulja boy", "redfoo", "savage", "monke", "pog", "balls", "sunday", "glizzy",
             "hotdog", "hot dog", "henceforth", "seafood mousse", "pants", "yeah", "mechanic lunch",
-            "youngg", "deaduncleben", "everyone", "foot fetish", "ok", "mercy", "imagine dragons", "lol", "lmao",
-            "loco ludicolo", "sad", "cry", "depressed", "ed sheeran", "fuck it", "fight club", "covid", "corona",
+            "everyone", "foot fetish", "ok", "mercy", "imagine dragons", "lol", "lmao",
+            "sad", "cry", "depressed", "ed sheeran", "fuck it", "fight club",
             "shotgun", "piccolo", "burger king", "nachos", "ferb", "darth maul", "swowss", "italian", "kanye", "allah",
             "chococrispi", "kidney failure", "chef pasqually", "shower", "pizza", "pizza hut", "subway", "lebron james",
             "pepe hands", "lmfao", "shrek", "drake", "shut the fuck up", "onion", "don't care", "dont care", "jaden",
             "ryan", "elaborate", "in conclusion", "you dumb bitch", "tom cruise", "total drama island", "potato",
-            "donkey kong", "for real", "what is going on", "league", "felix", "thats awesome", "that's awesome",
+            "donkey kong", "for real", "what is going on", "league", "thats awesome", "that's awesome",
             "im done", "i'm done", "racism", "hobby", "ignored", "pee", "grits", "chillin", "brian", "lets go",
-            "let's go", "adam", "trex", "beatbox", "beat box", "taric", "beet", "pineapple", "kaden", "gibby",
-            "bbq", "the boys", "cow", "butt cheeck", "buttcheeck", "n word", "thug", "sadness", "beans", "agony", "crack",
+            "let's go", "adam", "trex", "beet", "pineapple", "kaden", "gibby",
+            "bbq", "butt cheeck", "buttcheeck", "n word", "thug", "beans", "agony", "crack",
             "subway foot", "meow", "suffering", "poop", "emperor tamarin", "movie theater", "imposter", "popare", "wolf order",
             "the guys", "for africa", "3/24/1979", "gorilla joke", "7018 rod", "hercules plates", "yo dudes", "drill sargeant",
             "people", "cheeze-it flakes", "cheese it flakes", "peanut butter and onion sandwich", "spotify", "making burger",
-            "wocky slush")
-
+            "wocky slush", "albania", "bread", "chicken sandwich", "cyborg", "dj khaled", "doctor examining my balls", 
+            "freshest cut", "goji", "hog rider", "karate", "mc griddle", "movie food", "no bitches", "old woman bread", 
+            "orn free taa", "pie", "red faced uakari", "scooby doo", "silly circles", "vaping memes", "wave check", 
+            "weed", "wingstop", "yo grandma", "wheat grain funny stock image", "nicky flippers")
 printwords = "```"
 for word in keywords:
     printwords += (word + ", ")
@@ -62,7 +64,11 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "for africa": "memes/africa.png", "3/24/1979": "memes/1979.mov", "gorilla joke": "memes/gorilla.png", "7018 rod": "memes/7018.jpg", "hercules plates": "memes/hercules.png",
        "yo dudes": "memes/dudes.mov", "drill sargeant": "memes/sargeant.png", "people": "memes/people.jpg", "cheeze-it flakes": "memes/flakes.png",
        "cheese it flakes": "memes/flakes.png", "peanut butter and onion sandwich": "memes/PBaO.jpg", "spotify": "memes/spotify.jpg", "making burger": "memes/mburger.mov",
-       "wocky slush": "memes/wocky.mp4"}
+       "wocky slush": "memes/wocky.mp4", "albania": "albania.jpg", "bread": "bread.jpg", "chicken sandwich": "chickensand.jpg", "cyborg": "cyborg.jpg", "dj khaled": "djkhaled.jpg",
+        "doctor examining my balls": "doctor.jpg", "freshest cut": "fresh.jpg", "goji": "goji.jpg", "hog rider": "hogrider.jpg", "karate": "karate.jpg", 
+        "mc griddle": "mcgriddle.jpg", "movie food": "moviefood.jpg", "no bitches": "nobitches.jpg", "old woman bread": "oldwomanbread.jpg", "orn free taa": "ornfreetaa.jpg", 
+        "pie": "pie.jpg", "red faced uakari": "redfaced.jpg", "scooby doo": "scoob.jpg","silly circles": "sillycircles.jpg", "vaping memes": "vapingmemes.jpg", "wave check": "wavecheck.jpg", 
+        "weed": "weed.jpg", "wingstop": "wingstop.jpg", "yo grandma": "yograndma.jpg", "wheat grain funny stock image": "wheat.jpg", "nicky flippers": "nicky.mov"}
 
 
 @client.event
