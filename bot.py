@@ -64,11 +64,11 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
        "for africa": "memes/africa.png", "3/24/1979": "memes/1979.mov", "gorilla joke": "memes/gorilla.png", "7018 rod": "memes/7018.jpg", "hercules plates": "memes/hercules.png",
        "yo dudes": "memes/dudes.mov", "drill sargeant": "memes/sargeant.png", "people": "memes/people.jpg", "cheeze-it flakes": "memes/flakes.png",
        "cheese it flakes": "memes/flakes.png", "peanut butter and onion sandwich": "memes/PBaO.jpg", "spotify": "memes/spotify.jpg", "making burger": "memes/mburger.mov",
-       "wocky slush": "memes/wocky.mp4", "albania": "albania.jpg", "bread": "bread.jpg", "chicken sandwich": "chickensand.jpg", "cyborg": "cyborg.jpg", "dj khaled": "djkhaled.jpg",
-        "doctor examining my balls": "doctor.jpg", "freshest cut": "fresh.jpg", "goji": "goji.jpg", "hog rider": "hogrider.jpg", "karate": "karate.jpg", 
-        "mc griddle": "mcgriddle.jpg", "movie food": "moviefood.jpg", "no bitches": "nobitches.jpg", "old woman bread": "oldwomanbread.jpg", "orn free taa": "ornfreetaa.jpg", 
-        "pie": "pie.jpg", "red faced uakari": "redfaced.jpg", "scooby doo": "scoob.jpg","silly circles": "sillycircles.jpg", "vaping memes": "vapingmemes.jpg", "wave check": "wavecheck.jpg", 
-        "weed": "weed.jpg", "wingstop": "wingstop.jpg", "yo grandma": "yograndma.jpg", "wheat grain funny stock image": "wheat.jpg", "nicky flippers": "nicky.mov"}
+       "wocky slush": "memes/wocky.mp4", "albania": "memes/albania.jpg", "bread": "memes/bread.jpg", "chicken sandwich": "memes/chickensand.jpg", "cyborg": "memes/cyborg.jpg", "dj khaled": "memes/djkhaled.jpg",
+        "doctor examining my balls": "memes/doctor.jpg", "freshest cut": "memes/fresh.jpg", "goji": "memes/goji.jpg", "hog rider": "memes/hogrider.jpg", "karate": "memes/karate.jpg", 
+        "mc griddle": "memes/mcgriddle.jpg", "movie food": "memes/moviefood.jpg", "no bitches": "memes/nobitches.jpg", "old woman bread": "memes/oldwomanbread.jpg", "orn free taa": "memes/ornfreetaa.jpg", 
+        "pie": "memes/pie.jpg", "red faced uakari": "memes/redfaced.jpg", "scooby doo": "memes/scoob.jpg","silly circles": "memes/sillycircles.jpg", "vaping memes": "memes/vapingmemes.jpg", "wave check": "memes/wavecheck.jpg", 
+        "weed": "memes/weed.jpg", "wingstop": "memes/wingstop.jpg", "yo grandma": "memes/yograndma.jpg", "wheat grain funny stock image": "memes/wheat.jpg", "nicky flippers": "memes/nicky.mov"}
 
 
 @client.event
