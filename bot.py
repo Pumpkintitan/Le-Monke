@@ -34,7 +34,7 @@ keywords = ("me lon", "soulja boy", "redfoo", "savage", "monke", "pog", "balls",
 printwords = "```"
 for word in keywords:
     printwords += (word + ", ")
-printwords += ", pi```"
+printwords += " pi```"
 
 res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": "memes/Redfoo.jpg", "savage": "memes/Savage.jpg",
        "monke": "memes/Monke.png", "pog": "memes/pog.jpg", "balls": "memes/Balls.png", "sunday": "memes/Sunday.mp4", "glizzy": "memes/glizzy.mp4",
