@@ -30,11 +30,11 @@ keywords = ("me lon", "soulja boy", "redfoo", "savage", "monke", "pog", "balls",
             "wocky slush", "albania", "bread", "chicken sandwich", "cyborg", "dj khaled", "doctor examining my balls", 
             "freshest cut", "goji", "hog rider", "karate", "mc griddle", "movie food", "no bitches", "old woman bread", 
             "orn free taa", "pie", "red faced uakari", "scooby doo", "silly circles", "vaping memes", "wave check", 
-            "weed", "wingstop", "yo grandma", "wheat grain funny stock image", "nicky flippers")
+            "weed", "wingstop", "yo grandma", "wheat grain funny stock image", "nicky flippers", "mom")
 printwords = "```"
 for word in keywords:
     printwords += (word + ", ")
-printwords += " pi```"
+printwords += "pi```"
 
 res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": "memes/Redfoo.jpg", "savage": "memes/Savage.jpg",
        "monke": "memes/Monke.png", "pog": "memes/pog.jpg", "balls": "memes/Balls.png", "sunday": "memes/Sunday.mp4", "glizzy": "memes/glizzy.mp4",
@@ -68,7 +68,8 @@ res = {"me lon": "memes/melon.mp4", "soulja boy": "memes/Soulja.mov", "redfoo": 
         "doctor examining my balls": "memes/doctor.jpg", "freshest cut": "memes/fresh.jpg", "goji": "memes/goji.jpg", "hog rider": "memes/hogrider.jpg", "karate": "memes/karate.jpg", 
         "mc griddle": "memes/mcgriddle.jpg", "movie food": "memes/moviefood.jpg", "no bitches": "memes/nobitches.jpg", "old woman bread": "memes/oldwomanbread.jpg", "orn free taa": "memes/ornfreetaa.jpg", 
         "pie": "memes/pie.jpg", "red faced uakari": "memes/redfaced.jpg", "scooby doo": "memes/scoob.jpg","silly circles": "memes/sillycircles.jpg", "vaping memes": "memes/vapingmemes.jpg", "wave check": "memes/wavecheck.jpg", 
-        "weed": "memes/weed.jpg", "wingstop": "memes/wingstop.jpg", "yo grandma": "memes/yograndma.jpg", "wheat grain funny stock image": "memes/wheat.jpg", "nicky flippers": "memes/nicky.mov"}
+        "weed": "memes/weed.jpg", "wingstop": "memes/wingstop.jpg", "yo grandma": "memes/yograndma.jpg", "wheat grain funny stock image": "memes/wheat.jpg", "nicky flippers": "memes/nicky.mov",
+        "mom": "memes/mom.PNG"}
 
 
 @client.event
