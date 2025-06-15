@@ -11,4 +11,3 @@ idna
 more-itertools
 oauthlib
 multidict
-yarl
