@@ -1,4 +1,4 @@
-aiohttp==3.8.2
+aiohttp
 async-timeout
 attrs
 blinker
@@ -11,4 +11,4 @@ idna
 more-itertools
 oauthlib
 multidict
-yarl==1.8.1
+yarl
