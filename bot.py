@@ -1,8 +1,7 @@
 import os
 import discord
 
-env = open("auth", "r")
-TOKEN = env.readline()
+TOKEN = os.environ["DISCORD_TOKEN"]
 
 client = discord.Client()
 
