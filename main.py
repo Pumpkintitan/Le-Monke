@@ -2,8 +2,9 @@ import os
 import discord
 
 TOKEN = os.environ["DISCORD_TOKEN"]
-
-client = discord.Client()
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(intents=intents)
 
 
 @client.event
